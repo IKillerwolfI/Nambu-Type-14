@@ -1,0 +1,7 @@
+{
+	"bm_w_nambu14" 							: "Nambu Type 14",
+	"bm_w_nambu14_desc" 					: "The Nambu Type 14, also known as the Taisho 14, is a Japanese pistol that was designed and produced by Nagoya Arsenal. It was the primary service pistol of the Imperial Japanese Army during World War II.",
+
+	"menu_l_global_value_nambu14" : "This is a KILLERWOLF Weapon!"
+	
+}
