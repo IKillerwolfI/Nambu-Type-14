@@ -1,6 +1,7 @@
-- [ ] Fix bolt model
-- [ ] Fix Mag position
-- [ ] Fix round 2 or 3 in mag
+- [x] Fix bolt model
+- [x] Fix Mag position
+- [x] Fix round 2 or 3 in mag
+- [ ] Maybe move the gun a bit more forward to fix mag issues
 - [ ] Fix retarded softlock on barrel extensions (yeah thanks for that)
 - [ ] Tweak ads stance
 - [ ] Maybe get reload sounds to work (if overkill wasn't a bunch of spastics this would be much easier)
