@@ -1,5 +1,5 @@
 <unit type="wpn" slot="1" >
-    <object file="units/mods/weapons/wpn_fps_pis_nambu14_pts/wpn_fps_pis_nambu14_bo_std" />
+    <object file="units/mods/weapons/wpn_fps_pis_nambu14_pts/wpn_fps_pis_nambu14_g_std" />
     <extensions>
         <extension class="ScriptUnitData" name="unit_data" />
     </extensions>

@@ -1,0 +1,12 @@
+- [ ] Fix bolt model
+- [ ] Fix Mag position
+- [ ] Fix round 2 or 3 in mag
+- [ ] Fix retarded softlock on barrel extensions (yeah thanks for that)
+- [ ] Tweak ads stance
+- [ ] Maybe get reload sounds to work (if overkill wasn't a bunch of spastics this would be much easier)
+- [ ] Add parts for the Type A
+- [ ] Add parts for the Type B
+- [ ] Add parts for the Type A 1904
+- [ ] Add parts for the Type A Experimental
+- [ ] Maybe add some finishes (Chrome, Silver, Blued etc)
+- [ ] Make a script so the gun has a 30%  chance of firing while performing a tac-reload (No I won't, I'm too lazy)
