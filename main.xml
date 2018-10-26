@@ -33,6 +33,11 @@
 		<pcs/>
     </WeaponMod>
 	
+	<WeaponMod id="wpn_fps_pis_nambu14_f_early" based_on="wpn_fps_pis_packrat_body_standard" type="lower_reciever" unit="units/mods/weapons/wpn_fps_pis_nambu14_pts/wpn_fps_pis_nambu14_f_early" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats concealment="1" recoil="-1"/>
+		<pcs/>
+    </WeaponMod>
+	
 	<Weapon unlock_level="25">
 		<weapon id="nambu14" based_on="packrat" CLIP_AMMO_MAX="8" NR_CLIPS_MAX="10" tactical_reload="1" texture_bundle_folder="mods" global_value="nambu14">
 			<stats damage="50" spread="19" spread_moving="17" recoil="16" concealment="28"/>
@@ -86,6 +91,8 @@
 				
 				<value_node value="wpn_fps_pis_nambu14_so_waw"/>
 				<value_node value="wpn_fps_pis_nambu14_ro_waw"/>
+				
+				<value_node value="wpn_fps_pis_nambu14_f_early"/>
 				
 				<value_node value="wpn_fps_upg_ns_pis_large"/>
 				<value_node value="wpn_fps_upg_ns_pis_medium"/>
@@ -162,6 +169,8 @@
 				
 				<value_node value="wpn_fps_pis_nambu14_so_waw"/>
 				<value_node value="wpn_fps_pis_nambu14_ro_waw"/>
+				
+				<value_node value="wpn_fps_pis_nambu14_f_early"/>
 				
 				<value_node value="wpn_fps_upg_ns_pis_large"/>
 				<value_node value="wpn_fps_upg_ns_pis_medium"/>
@@ -265,6 +274,11 @@
 		<model           path="units/mods/weapons/wpn_fps_pis_nambu14_pts/wpn_fps_pis_nambu14_ro_waw"/>
 		<object          path="units/mods/weapons/wpn_fps_pis_nambu14_pts/wpn_fps_pis_nambu14_ro_waw"/>
 		<unit            path="units/mods/weapons/wpn_fps_pis_nambu14_pts/wpn_fps_pis_nambu14_ro_waw"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_pis_nambu14_pts/wpn_fps_pis_nambu14_f_early"/>
+		<model           path="units/mods/weapons/wpn_fps_pis_nambu14_pts/wpn_fps_pis_nambu14_f_early"/>
+		<object          path="units/mods/weapons/wpn_fps_pis_nambu14_pts/wpn_fps_pis_nambu14_f_early"/>
+		<unit            path="units/mods/weapons/wpn_fps_pis_nambu14_pts/wpn_fps_pis_nambu14_f_early"/>
 		
 		<!--
         <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/weapons/nambu14"/>

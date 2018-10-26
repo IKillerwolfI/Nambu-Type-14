@@ -3,7 +3,7 @@ if ( self.nambu14 ) then
 	self:SetupAttachmentPoint( "nambu14", {
 		name = "a_rowaw", --fuck overkill fuck overkil fuck overkill
 		base_a_obj = "a_body",
-		position = Vector3( 0, 4.6, -4.3 ), 
+		position = Vector3( 0, 4.6, -4.5 ), 
         rotation = Rotation( 0, 0, 0 )
 		})
 	self:SetupAttachmentPoint( "nambu14", {
@@ -17,7 +17,7 @@ if ( self.x_nambu14 ) then
 	self:SetupAttachmentPoint( "x_nambu14", {
 		name = "a_rowaw", --fuck overkill fuck overkil fuck overkill
 		base_a_obj = "a_body",
-		position = Vector3( 0, 4.6, -4.3 ), 
+		position = Vector3( 0, 4.6, -4.5 ), 
         rotation = Rotation( 0, 0, 0 )
 		})
 	self:SetupAttachmentPoint( "x_nambu14", {

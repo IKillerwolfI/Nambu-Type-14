@@ -8,6 +8,8 @@
 	"bm_wp_wpn_fps_pis_nambu14_ro_waw" 		: "Late War rear sights",
 	"bm_wp_wpn_fps_pis_nambu14_so_waw" 		: "WaW sounds",
 	
+	"bm_wp_wpn_fps_pis_nambu14_f_early" 	: "Early model Frame",
+	
 	"bm_menu_sound"        					: "Sound",
 	"bm_menu_sound_plural" 					: "Sounds",
 	
