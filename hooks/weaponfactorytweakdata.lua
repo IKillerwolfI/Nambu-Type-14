@@ -18,5 +18,5 @@ Hooks:PostHook( WeaponFactoryTweakData, "init", "Nambu14Init", function(self)
 		self.wpn_fps_pis_nambu14.override[part_id] = {a_obj = "a_ns", parent = "barrel"}
 		self.wpn_fps_pis_x_nambu14.override[part_id] = {a_obj = "a_ns", parent = "barrel"}
 	end
-
+	--self.legacy.reload_name_id = "lemming"
 end )
