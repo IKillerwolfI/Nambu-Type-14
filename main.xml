@@ -233,6 +233,11 @@
 		<material_config path="units/mods/weapons/wpn_fps_pis_nambu14_pts/nambu14_std"/>
 		<material_config path="units/mods/weapons/wpn_fps_pis_nambu14_pts/nambu14_std_thq"/>
 		
+		<texture         path="units/mods/weapons/wpn_fps_pis_nambu14_pts/nambu14_a_df"/>
+		
+		<material_config path="units/mods/weapons/wpn_fps_pis_nambu14_pts/nambu14_a"/>
+		<material_config path="units/mods/weapons/wpn_fps_pis_nambu14_pts/nambu14_a_thq"/>
+		
 		<texture         path="units/mods/weapons/wpn_fps_pis_nambu14_pts/nambu14waw_df"/>
 		<texture         path="units/mods/weapons/wpn_fps_pis_nambu14_pts/nambu14waw_nm"/>
 		
