@@ -29,6 +29,12 @@
 	   <pcs/>
     </WeaponMod>
 	
+	<WeaponMod id="wpn_fps_pis_nambu14_so_src" based_on="wpn_fps_upg_a_custom_free" unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy" type="sound" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+	<sound_switch suppressed="regular_c"/>
+	   <stats damage="0"/>
+	   <pcs/>
+    </WeaponMod>
+	
 	<WeaponMod id="wpn_fps_pis_nambu14_ro_waw" based_on="wpn_fps_pis_packrat_body_standard" type="iron_rear" a_obj="a_rowaw" unit="units/mods/weapons/wpn_fps_pis_nambu14_pts/wpn_fps_pis_nambu14_ro_waw" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<pcs/>
     </WeaponMod>
@@ -55,7 +61,9 @@
 				<value_node value="2"/>
 				<value_node value="7"/>
 			</AMMO_PICKUP>
-			<sounds fire="nambu14_fire" fire_single="nambu14_fire" fire_auto="nambu14_fire" use_fix="true"/>
+			<sounds fire="nambu14_fire" fire_single="nambu14_fire" fire_auto="nambu14_fire" use_fix="true">
+				<reload wp_packrat_mag_throw="wp_nambu_mag_slide_out" wp_packrat_mag_in="wp_nambu_mag_slide_in" wp_packrat_slide_back="wp_nambu_bolt_back" wp_packrat_slide_release="wp_nambu_bolt_release"/>
+			</sounds>
 			<use_data align_place="right_hand"/>
 			<animations reload_name_id="packrat" recoil_steelsight="true">
 			</animations>
@@ -103,6 +111,8 @@
 				<value_node value="wpn_fps_pis_nambu14_f_early"/>
 				<value_node value="wpn_fps_pis_nambu14_f_a"/>
 				
+				<value_node value="wpn_fps_pis_nambu14_so_src"/>
+				
 				<value_node value="wpn_fps_upg_ns_pis_large"/>
 				<value_node value="wpn_fps_upg_ns_pis_medium"/>
 				<value_node value="wpn_fps_upg_ns_pis_small"/>
@@ -134,7 +144,9 @@
 				<value_node value="2"/>
 				<value_node value="7"/>
 			</AMMO_PICKUP>
-			<sounds fire="nambu14_fire" fire_single="nambu14_fire" fire_auto="nambu14_fire" use_fix="true"/>
+			<sounds fire="nambu14_fire" fire_single="nambu14_fire" fire_auto="nambu14_fire" use_fix="true">
+				<reload wp_breech_clip_slide_out="wp_nambu_mag_slide_out" wp_breech_clip_slide_in="wp_nambu_mag_slide_in" wp_breech_lock_pull="wp_nambu_bolt_back" wp_breech_lock_release="wp_nambu_bolt_release"/>
+			</sounds>
 			<animations reload_name_id="x_breech" recoil_steelsight="true" magazine_empty="last_recoil" has_steelsight_stance="true">
 				<second_gun_versions reload_not_empty="reload_not_empty_left" reload="reload_left"/>
 			</animations>
@@ -182,6 +194,8 @@
 				<value_node value="wpn_fps_pis_nambu14_f_early"/>
 				<value_node value="wpn_fps_pis_nambu14_f_a"/>
 				
+				<value_node value="wpn_fps_pis_nambu14_so_src"/>
+				
 				<value_node value="wpn_fps_upg_ns_pis_large"/>
 				<value_node value="wpn_fps_upg_ns_pis_medium"/>
 				<value_node value="wpn_fps_upg_ns_pis_small"/>
@@ -208,9 +222,18 @@
 	<Sounds directory="assets\sounds">
 		<sound id="nambu14_fire" path="nambu14_fire.ogg" 	prefix="regular"/>
 		<sound id="nambu14_fire" path="nambu14_waw.ogg"		prefix="regular_b"/>
+		<sound id="nambu14_fire" path="nambu14_src.ogg"		prefix="regular_c"/>
 		<sound id="nambu14_fire" path="nambu14_sup.ogg" 	prefix="suppressed_a"/>
 		<sound id="nambu14_fire" path="nambu14_sup.ogg" 	prefix="suppressed_b"/>
 		<sound id="nambu14_fire" path="nambu14_sup.ogg" 	prefix="suppressed_c"/>
+		<sound id="wp_nambu_bolt_release" 	path="wp_nambu_bolt_release.ogg" prefix="first"/>
+		<sound id="wp_nambu_bolt_release" 	path="wp_nambu_bolt_release.ogg" prefix="third"/>
+		<sound id="wp_nambu_mag_slide_out" 	path="wp_nambu_mag_slide_out.ogg" prefix="first"/>
+		<sound id="wp_nambu_mag_slide_out" 	path="wp_nambu_mag_slide_out.ogg" prefix="third"/>
+		<sound id="wp_nambu_mag_slide_in"  	path="wp_nambu_mag_slide_in.ogg" prefix="first"/>
+		<sound id="wp_nambu_mag_slide_in"  	path="wp_nambu_mag_slide_in.ogg" prefix="third"/>
+		<sound id="wp_nambu_bolt_back"  	path="wp_nambu_bolt_back.ogg" prefix="first"/>
+		<sound id="wp_nambu_bolt_back"  	path="wp_nambu_bolt_back.ogg" prefix="third"/>
 	</Sounds>
 	
 	<AddFiles directory="assets">
@@ -234,6 +257,7 @@
 		<material_config path="units/mods/weapons/wpn_fps_pis_nambu14_pts/nambu14_std_thq"/>
 		
 		<texture         path="units/mods/weapons/wpn_fps_pis_nambu14_pts/nambu14_a_df"/>
+		<texture         path="units/mods/weapons/wpn_fps_pis_nambu14_pts/nambu14_a_nm"/>
 		
 		<material_config path="units/mods/weapons/wpn_fps_pis_nambu14_pts/nambu14_a"/>
 		<material_config path="units/mods/weapons/wpn_fps_pis_nambu14_pts/nambu14_a_thq"/>
