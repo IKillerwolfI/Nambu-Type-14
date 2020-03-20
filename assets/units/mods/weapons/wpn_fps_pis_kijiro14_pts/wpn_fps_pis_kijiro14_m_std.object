@@ -1,0 +1,33 @@
+<dynamic_object>
+	<diesel materials="units/mods/weapons/wpn_fps_pis_kijiro14_pts/kijiro14_std" orientation_object="rp_wpn_fps_pis_breech_mag" />
+	<graphics>
+		<graphic_group name="character" enabled="true" culling_object="g_8mm_1">
+			<object enabled="true" inherit_bounding_volume="co_culling" name="g_8mm_1" />
+			<object enabled="true" inherit_bounding_volume="co_culling" name="g_8mm_2" />
+			<object enabled="true" inherit_bounding_volume="co_culling" name="g_8mm_3" />
+			<object enabled="true" inherit_bounding_volume="co_culling" name="g_8mm_4" />
+			<object enabled="true" inherit_bounding_volume="co_culling" name="g_8mm_5" />
+			<object enabled="true" inherit_bounding_volume="co_culling" name="g_8mm_6" />
+			<object enabled="true" inherit_bounding_volume="co_culling" name="g_8mm_7" />
+			<object enabled="true" inherit_bounding_volume="co_culling" name="g_8mm_8" />
+			<object enabled="false" inherit_bounding_volume="co_culling" name="g_follow_1" />
+			<object enabled="false" inherit_bounding_volume="co_culling" name="g_follow_2" />
+			<object enabled="false" inherit_bounding_volume="co_culling" name="g_follow_3" />
+			<object enabled="false" inherit_bounding_volume="co_culling" name="g_follow_4" />
+			<object enabled="false" inherit_bounding_volume="co_culling" name="g_follow_5" />
+			<object enabled="false" inherit_bounding_volume="co_culling" name="g_follow_6" />
+			<object enabled="false" inherit_bounding_volume="co_culling" name="g_follow_7" />
+			<object enabled="true" inherit_bounding_volume="co_culling" name="g_follow_8" />
+			<object enabled="false" inherit_bounding_volume="co_culling" name="g_exfollow_1" />
+			<object enabled="false" inherit_bounding_volume="co_culling" name="g_exfollow_2" />
+			<object enabled="false" inherit_bounding_volume="co_culling" name="g_exfollow_3" />
+			<object enabled="false" inherit_bounding_volume="co_culling" name="g_exfollow_4" />
+			<object enabled="false" inherit_bounding_volume="co_culling" name="g_exfollow_5" />
+			<object enabled="false" inherit_bounding_volume="co_culling" name="g_exfollow_6" />
+			<object enabled="false" inherit_bounding_volume="co_culling" name="g_exfollow_7" />
+			<object enabled="true" inherit_bounding_volume="co_culling" name="g_exfollow_8" />
+		</graphic_group>
+		<object name="g_bullet_1" enabled="false" />
+		<object name="g_mag" enabled="true" />
+	</graphics>
+</dynamic_object>
