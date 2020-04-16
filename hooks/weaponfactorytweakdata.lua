@@ -12,6 +12,9 @@ Hooks:PostHook( WeaponFactoryTweakData, "init", "Nambu14Init", function(self)
 			[8] = {"g_8mm_1","g_8mm_2","g_8mm_3","g_8mm_4","g_8mm_5","g_8mm_6","g_8mm_7","g_follow_7","g_exfollow_7"},
 			[9] = {"g_8mm_1","g_8mm_2","g_8mm_3","g_8mm_4","g_8mm_5","g_8mm_6","g_8mm_7","g_8mm_8","g_follow_8","g_exfollow_8"}
 		}
+	for i = 10, 25 do
+		self.parts.wpn_fps_pis_kijiro14_m_std.advanced_bullet_objects[i] = {"g_8mm_1","g_8mm_2","g_8mm_3","g_8mm_4","g_8mm_5","g_8mm_6","g_8mm_7","g_8mm_8","g_follow_8","g_exfollow_8"}
+	end
 	--[[
 	local nambu14_exts = {
 		"wpn_fps_upg_ns_pis_medium",
